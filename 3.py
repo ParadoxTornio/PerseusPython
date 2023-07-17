@@ -4,8 +4,7 @@ n = int(input())
 def simple(number):
     if number == 2 or number == 3 or number == 7:
         print('простое')
-        exit()
-    if (number % 2 == 0
+    elif (number % 2 == 0
             or number % 3 == 0
             or number % 4 == 0
             or number % 5 == 0
