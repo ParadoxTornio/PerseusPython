@@ -2,11 +2,9 @@ def bigger_num(num):
     result = []
     counter = 0
     for i in num:
-        result.append(i)
-        result[counter] = int(result[counter])
+        result.append(int(i))
         counter += 1
-    result = sorted(result)
-    result.reverse()
+    result.sort(reverse=True)
     print(result)
 
 
